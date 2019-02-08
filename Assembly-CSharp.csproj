@@ -73,22 +73,22 @@
     <Compile Include="Assets\Scripts\RainSpawner.cs" />
     <None Include="Assets\FX\Materials\UnlitVertexColour_Alpha.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/evilimac/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/andreypopov/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/evilimac/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/andreypopov/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/evilimac/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/andreypopov/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.postprocessing.Editor">
-      <HintPath>/Users/evilimac/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
+      <HintPath>/Users/andreypopov/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.postprocessing.Runtime">
-      <HintPath>/Users/evilimac/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
+      <HintPath>/Users/andreypopov/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/evilimac/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/andreypopov/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,10 +292,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>/Users/evilimac/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>/Users/andreypopov/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>/Users/evilimac/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>/Users/andreypopov/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
