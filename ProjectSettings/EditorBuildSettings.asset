@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RobotLevel.unity
     guid: e306455abe16d4c099ef40bfc40f3dee
+  - enabled: 1
+    path: Assets/Scenes/FairyLevel.unity
+    guid: e396484b2053f4a5b8037a3340127733
   m_configObjects: {}

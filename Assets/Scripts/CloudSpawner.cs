@@ -14,7 +14,7 @@ public class CloudSpawner : MonoBehaviour {
     }
 	
 	void Update () {
-        countCloud = Random.Range(0, 15);
+        countCloud = Random.Range(0, clouds.Length);
         cloudPos = new Vector2(transform.position.x, Random.Range(-5, 5));
     }
 
