@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
         if (transform.position.y <= -6)
         {
             Time.timeScale = 0;
-            loseText.text = "YOY DEAD";
+            loseText.text = "YOU DEAD";
             deathPanel.SetActive(true);
         }
          else if (time <= 0)
