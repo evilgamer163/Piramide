@@ -61,16 +61,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BonusLeftSpawner.cs" />
-    <Compile Include="Assets\Scripts\BonusLifeTime.cs" />
-    <Compile Include="Assets\Scripts\BonusRightSpawner.cs" />
-    <Compile Include="Assets\Scripts\CloudSpawner.cs" />
+    <Compile Include="Assets\Scripts\Controller.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\MoveClouds.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\PlusTimeSpawner.cs" />
-    <Compile Include="Assets\Scripts\Rain.cs" />
-    <Compile Include="Assets\Scripts\RainSpawner.cs" />
+    <Compile Include="Assets\Scripts\Spawners\BonusLeftSpawner.cs" />
+    <Compile Include="Assets\Scripts\Spawners\BonusLifeTime.cs" />
+    <Compile Include="Assets\Scripts\Spawners\BonusRightSpawner.cs" />
+    <Compile Include="Assets\Scripts\Spawners\CloudSpawner.cs" />
+    <Compile Include="Assets\Scripts\Spawners\MoveClouds.cs" />
+    <Compile Include="Assets\Scripts\Spawners\PlusTimeSpawner.cs" />
+    <Compile Include="Assets\Scripts\Spawners\Rain.cs" />
+    <Compile Include="Assets\Scripts\Spawners\RainSpawner.cs" />
     <None Include="Assets\FX\Materials\UnlitVertexColour_Alpha.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/evilimac/Documents/_Unity_Projects/Piramide/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
