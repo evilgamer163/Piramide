@@ -1,12 +1,24 @@
 ﻿<Properties StartupConfiguration="{16B9237D-CC2B-9DE1-320B-0D063B19CF76}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="35" Column="5" />
-      <File FileName="Assets/Scripts/Spawners/CloudSpawner.cs" Line="17" Column="51" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="12" Column="33" />
       <File FileName="Assets/Scripts/PlayerController.cs" Line="44" Column="33" />
-      <File FileName="Assets/Scripts/Spawners/BonusLeftSpawner.cs" Line="28" Column="6" />
-      <File FileName="Assets/Scripts/Controller.cs" Line="7" Column="16" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="7" Column="5" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Piramide" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Spawners" expanded="True" />
+                <Node name="PauseMenu.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

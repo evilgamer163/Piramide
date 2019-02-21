@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/FairyLevel.unity
+- path: Assets/Scenes/RobotLevel.unity
   isLoaded: 1
   isActive: 1
