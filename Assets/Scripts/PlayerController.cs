@@ -5,19 +5,19 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
-    public float speed;
+    public AudioClip[] clips;
+    public ParticleSystem[] particles;
+    public GameObject deathPanel;
+    Vector2 move;
+    AudioSource source;
+
+    float speed = 20f;
     public int bonus = 0;
     public Text bonusCountText;
     public Text timeText;
     public Text loseText;
     public float time = 30;
-    public AudioClip[] clips;
-    public ParticleSystem[] particles;
-    AudioSource source;
     float plusTime;
-
-    public GameObject deathPanel;
-    Vector3 move;
 
 	void Start () 
     {
@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour {
 	
 	void Update ()
     {
-        MovePlayer();
+        //MovePlayer();
         timeText.text = time.ToString("0");
         bonusCountText.text = bonus.ToString();
         time -= Time.deltaTime;
@@ -52,11 +52,18 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    void MovePlayer()
+    public void MovePlayerRight()
     {
         move = new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0);
         transform.Translate(move);
     }
+
+    public void MovePlayerLeft()
+    {
+        move = new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0);
+        transform.Translate(-move);
+    }
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
