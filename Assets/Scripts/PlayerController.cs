@@ -8,10 +8,13 @@ public class PlayerController : MonoBehaviour {
     public AudioClip[] clips;
     public ParticleSystem[] particles;
     public GameObject deathPanel;
+
+    Rigidbody2D rb2d;
     Vector2 move;
     AudioSource source;
 
-    float speed = 20f;
+    float speed = 7.5f;
+    float directionInput;
     public int bonus = 0;
     public Text bonusCountText;
     public Text timeText;
@@ -21,17 +24,19 @@ public class PlayerController : MonoBehaviour {
 
 	void Start () 
     {
+        rb2d = GetComponent<Rigidbody2D>();
         source = GetComponent<AudioSource>();
         Time.timeScale = 1;
     }
-	
-	void Update ()
+
+    void Update ()
     {
-        //MovePlayer();
         timeText.text = time.ToString("0");
         bonusCountText.text = bonus.ToString();
         time -= Time.deltaTime;
         plusTime = Random.Range(10, 20);
+
+        transform.Translate(directionInput * speed*Time.deltaTime, 0, 0);
 
         GameOver();
     }
@@ -52,18 +57,10 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    public void MovePlayerRight()
+    public void MovePlayer(int input)
     {
-        move = new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0);
-        transform.Translate(move);
+        directionInput = input;
     }
-
-    public void MovePlayerLeft()
-    {
-        move = new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0);
-        transform.Translate(-move);
-    }
-
 
     void OnTriggerEnter2D(Collider2D collision)
     {
